@@ -22,7 +22,6 @@ Interactive dashboard built with **Streamlit** to visualize e-commerce sales dat
 ![Sales Dashboard Screenshot](https://raw.githubusercontent.com/bizimunda/E-commerce-dashboard/main/sales_overtime.png)
 
 
-> *Tip:* Replace the URLs above with actual screenshots of your app from your local or deployed version.
 
 ## Try It Out
 1. **Live App:** [Click here to access the dashboard](https://e-commerce-dashboard-fyydxhvghku8nxuywfp2jv.streamlit.app/)
