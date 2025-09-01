@@ -10,7 +10,7 @@ Interactive dashboard built with **Streamlit** to visualize e-commerce sales dat
 - Interactive and user-friendly interface
 
 ## Try It Out
-1. **Live App:** [Click here](<your_streamlit_app_url>)
+1. **Live App:** [Click here](<[your_streamlit_app_url](https://e-commerce-dashboard-fyydxhvghku8nxuywfp2jv.streamlit.app/)>)
 2. **Test with Sample Data:** Upload `sample_sales_data.csv` provided in the repo
 
 ## Quick Setup (Local)
