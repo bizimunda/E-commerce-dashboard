@@ -15,8 +15,11 @@ Interactive dashboard built with **Streamlit** to visualize e-commerce sales dat
 - Easily spot anomalies or drops in sales
 
 ## Screenshots
-![Dashboard Overview]([https://user-images.githubusercontent.com/bizimunda/sales.png](https://github.com/bizimunda/E-commerce-dashboard/blob/main/sales.png))
-![Sales Over Time][(https://user-images.githubusercontent.com/bizimunda/sales_over_time.png](https://github.com/bizimunda/E-commerce-dashboard/blob/main/sales_overtime.png))
+![Sales Dashboard Screenshot](https://raw.githubusercontent.com/bizimunda/E-commerce-dashboard/main/sales.png)
+
+
+![Sales Dashboard Screenshot](https://raw.githubusercontent.com/bizimunda/E-commerce-dashboard/main/sales_overtime.png)
+
 
 > *Tip:* Replace the URLs above with actual screenshots of your app from your local or deployed version.
 
