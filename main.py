@@ -1,9 +1,28 @@
-# app1_sales_dashboard.py
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import requests
 
 st.title("E-commerce Sales Dashboard")
+
+# File download link
+st.markdown(
+    """
+    📥 [Click here to download the sample CSV](https://raw.githubusercontent.com/bizimunda/E-commerce-dashboard/main/sales_data.csv)
+    """,
+    unsafe_allow_html=True
+)
+
+# Or add a Streamlit download button
+url = "https://raw.githubusercontent.com/bizimunda/E-commerce-dashboard/main/sales_data.csv"
+response = requests.get(url)
+if response.status_code == 200:
+    st.download_button(
+        label="Download Example CSV",
+        data=response.content,
+        file_name="sales_data.csv",
+        mime="text/csv"
+    )
 
 # Upload CSV
 uploaded_file = st.file_uploader("Upload your sales CSV", type="csv")
